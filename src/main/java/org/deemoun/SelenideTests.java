@@ -24,18 +24,35 @@ class SelenideTests {
     }
 
     @Test
-    void successfulLoginTest() {
-        // Navigate to the login page
-        open("/");
-
-        // Enter username and password for the standard user
-        $("#user-name").setValue("standard_user");
-        $("#password").setValue("secret_sauce");
-
-        // Click the login button
-        $("#login-button").click();
+    void successfulLoginStandardUserTest() {
+        login("standard_user", "secret_sauce");
 
         // Verify that login was successful by checking that the inventory page is displayed
         $(".inventory_container").shouldBe(visible);
+
+        //logout();
+    }
+
+    @Test
+    void successfulLoginProblemUserTest() {
+        login("problem_user", "secret_sauce");
+
+        // Verify that login was successful by checking that the inventory page is displayed
+        $(".inventory_container").shouldBe(visible);
+
+        //logout();
+    }
+
+    private void login(String username, String password) {
+        open("/");
+        $("#user-name").setValue(username);
+        $("#password").setValue(password);
+        $("#login-button").click();
+    }
+
+    private void logout() {
+        open("/"); // Ensure the page is fully loaded
+        $("#react-burger-menu-btn").click(); // Open the menu
+        $("#logout_sidebar_link").click(); // Click the logout link
     }
 }
