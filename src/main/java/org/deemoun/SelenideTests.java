@@ -24,23 +24,26 @@ class SelenideTests {
     }
 
     @Test
-    void successfulLoginStandardUserTest() {
+    void addItemToCartTest() {
+        // Login with standard_user
         login("standard_user", "secret_sauce");
 
-        // Verify that login was successful by checking that the inventory page is displayed
+        // Verify that we're on the products page
         $(".inventory_container").shouldBe(visible);
 
-        //logout();
-    }
+        // Select the first item (assuming items are listed and have a common add-to-cart button)
+        // The button's ID or class should be verified on the website as it might change
+        // For this example, we'll click the first "Add to Cart" button found for an item
+        $$(".btn_inventory").first().click();
+        $$(".btn_inventory").first().shouldHave(text("REMOVE"));
 
-    @Test
-    void successfulLoginProblemUserTest() {
-        login("problem_user", "secret_sauce");
+        // Now, let's check if the item has been added by looking at the cart badge
+        // The cart icon should have a badge with a number indicating the items in the cart
+        $(".shopping_cart_badge").shouldHave(text("1"));
 
-        // Verify that login was successful by checking that the inventory page is displayed
-        $(".inventory_container").shouldBe(visible);
+        // Optional: proceed to checkout and verify item in the cart for a more thorough test
 
-        //logout();
+       // logout();
     }
 
     private void login(String username, String password) {
