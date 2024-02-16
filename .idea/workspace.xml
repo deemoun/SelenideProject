@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3e14383-939c-4a6b-90a9-5428eeff99f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/deemoun/GoogleSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/deemoun/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/deemoun/GoogleSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +32,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "POM",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;POM&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="JUnit.GoogleSearchTest">
+    <configuration name="GoogleSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SelenideProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deemoun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.deemoun" />
+      <option name="MAIN_CLASS_NAME" value="org.deemoun.GoogleSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelenideTests.testGoogleSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenideProject" />
       <extension name="coverage">
@@ -72,8 +88,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SelenideTests.testSearch" />
+        <item itemvalue="JUnit.GoogleSearchTest" />
         <item itemvalue="JUnit.SelenideTests.testGoogleSearch" />
+        <item itemvalue="JUnit.SelenideTests.testSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -87,5 +104,9 @@
       <updated>1707991957304</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
