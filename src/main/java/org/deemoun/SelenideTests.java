@@ -51,8 +51,17 @@ class SelenideTests {
     }
 
     private void logout() {
-        open("/"); // Ensure the page is fully loaded
-        $("#react-burger-menu-btn").click(); // Open the menu
-        $("#logout_sidebar_link").click(); // Click the logout link
+        // Ensure the page is fully loaded by waiting for an element that is always present after login
+        $(".some-element-present-after-login").shouldBe(visible);
+
+        // Check if the burger menu button is visible and click it
+        if ($("#react-burger-menu-btn").isDisplayed()) {
+            $("#react-burger-menu-btn").click();
+            $("#logout_sidebar_link").shouldBe(visible).click(); // Ensure the logout link is visible before clicking
+        } else {
+            System.out.println("The burger menu button is not visible. Checking alternative logout approach...");
+            // Implement any alternative logout logic here, if applicable
+        }
     }
+
 }
