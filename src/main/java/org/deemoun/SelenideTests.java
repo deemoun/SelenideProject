@@ -6,6 +6,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.time.Duration;
+
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Condition.*;
 
@@ -51,16 +53,18 @@ class SelenideTests {
     }
 
     private void logout() {
-        // Ensure the page is fully loaded by waiting for an element that is always present after login
-        $(".some-element-present-after-login").shouldBe(visible);
+        // Attempt to navigate to the base URL or dashboard, where the logout button is expected to be accessible
 
-        // Check if the burger menu button is visible and click it
-        if ($("#react-burger-menu-btn").isDisplayed()) {
+        // Wait for the element to be visible with an explicit wait
+        // Replace with a more specific condition if there's a better indicator of page readiness
+        $("#react-burger-menu-btn").shouldBe(visible, Duration.ofSeconds(10));
+
+        if ($("#react-burger-menu-btn").is(visible)) {
             $("#react-burger-menu-btn").click();
-            $("#logout_sidebar_link").shouldBe(visible).click(); // Ensure the logout link is visible before clicking
+            $("#logout_sidebar_link").shouldBe(visible).click();
         } else {
-            System.out.println("The burger menu button is not visible. Checking alternative logout approach...");
-            // Implement any alternative logout logic here, if applicable
+            System.out.println("Failed to find the logout button. Check if UI has changed.");
+            // Consider throwing an exception or handling the error based on your test requirements
         }
     }
 
