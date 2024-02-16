@@ -13,9 +13,7 @@ class SelenideTests {
 
     @BeforeEach
     void setup() {
-        Configuration.baseUrl = "https://www.saucedemo.com";
-        Configuration.startMaximized = true;
-        Configuration.browser = "firefox";
+        Utils.configureSelenide();
     }
 
     @AfterEach
@@ -31,17 +29,18 @@ class SelenideTests {
         // Verify that we're on the products page
         $(".inventory_container").shouldBe(visible);
 
-        // Find the "Sauce Labs Onesie" and click its "Add to Cart" button
-        // This assumes that each item has a unique name element that can be used to find the specific "Add to Cart" button
-        // The actual selectors might need adjustment based on the website's structure
-        $$(".inventory_item_name").findBy(text("Sauce Labs Onesie")).parent().$(".btn_inventory").click();
+        // Directly click the "Add to Cart" button for the "Sauce Labs Onesie"
+        // Assuming the button for the "Sauce Labs Onesie" has a unique data-test attribute or class
+        // For illustration, let's assume there's a data-test attribute like 'data-test="add-to-cart-sauce-labs-onesie"'
+        // Adjust the selector based on the actual attribute or class used on the website
+        $("[data-test='add-to-cart-sauce-labs-onesie']").click();
 
         // Verify that the item has been added to the cart
         $(".shopping_cart_badge").shouldHave(text("1"));
 
         // Optional: Verify item in the cart page for a comprehensive test
 
-        //logout();
+        logout();
     }
 
     private void login(String username, String password) {
