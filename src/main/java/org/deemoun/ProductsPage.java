@@ -1,5 +1,7 @@
 package org.deemoun;
 
+import com.codeborne.selenide.SelenideElement;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -10,9 +12,10 @@ public class ProductsPage {
         return this;
     }
 
-    public ProductsPage addSpecificItemToCart(String itemName) {
-        $$(".inventory_item_name").findBy(text(itemName)).parent().$(".btn_inventory").click();
-        return this;
+    public void addSpecificItemToCart(String itemName) {
+        // Find the item by its name and click the associated "Add to Cart" button
+        SelenideElement item = $$(".inventory_item").filter(text(itemName)).first();
+        item.find(".btn_inventory").click();
     }
 
     public boolean isItemAdded() {
