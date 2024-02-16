@@ -24,26 +24,24 @@ class SelenideTests {
     }
 
     @Test
-    void addItemToCartTest() {
+    void addSauceLabsOnesieToCartTest() {
         // Login with standard_user
         login("standard_user", "secret_sauce");
 
         // Verify that we're on the products page
         $(".inventory_container").shouldBe(visible);
 
-        // Select the first item (assuming items are listed and have a common add-to-cart button)
-        // The button's ID or class should be verified on the website as it might change
-        // For this example, we'll click the first "Add to Cart" button found for an item
-        $$(".btn_inventory").first().click();
-        $$(".btn_inventory").first().shouldHave(text("REMOVE"));
+        // Find the "Sauce Labs Onesie" and click its "Add to Cart" button
+        // This assumes that each item has a unique name element that can be used to find the specific "Add to Cart" button
+        // The actual selectors might need adjustment based on the website's structure
+        $$(".inventory_item_name").findBy(text("Sauce Labs Onesie")).parent().$(".btn_inventory").click();
 
-        // Now, let's check if the item has been added by looking at the cart badge
-        // The cart icon should have a badge with a number indicating the items in the cart
+        // Verify that the item has been added to the cart
         $(".shopping_cart_badge").shouldHave(text("1"));
 
-        // Optional: proceed to checkout and verify item in the cart for a more thorough test
+        // Optional: Verify item in the cart page for a comprehensive test
 
-       // logout();
+        //logout();
     }
 
     private void login(String username, String password) {
