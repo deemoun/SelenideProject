@@ -36,5 +36,7 @@ class SelenideTests {
 
         // Verify the item was added
         assertTrue(productsPage.isItemAdded());
+        productsPage.openCart();
+        productsPage.logout();
     }
 }
