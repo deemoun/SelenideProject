@@ -1,0 +1,802 @@
+[
+    {
+        "operation": "subtraction",
+        "operands": [
+            17,
+            89
+        ],
+        "result": -72
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            41,
+            51
+        ],
+        "result": -10
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            38,
+            99
+        ],
+        "result": 3762
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            16,
+            16
+        ],
+        "result": 256
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            96,
+            22
+        ],
+        "result": 2112
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            10,
+            44
+        ],
+        "result": -34
+    },
+    {
+        "operation": "division",
+        "operands": [
+            84,
+            90
+        ],
+        "result": 0.9333333333333333
+    },
+    {
+        "operation": "division",
+        "operands": [
+            11,
+            88
+        ],
+        "result": 0.125
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            28,
+            55
+        ],
+        "result": 83
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            49,
+            44
+        ],
+        "result": 5
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            82,
+            90
+        ],
+        "result": 7380
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            79,
+            79
+        ],
+        "result": 6241
+    },
+    {
+        "operation": "division",
+        "operands": [
+            36,
+            78
+        ],
+        "result": 0.46153846153846156
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            77,
+            79
+        ],
+        "result": -2
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            53,
+            45
+        ],
+        "result": 8
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            94,
+            77
+        ],
+        "result": 171
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            81,
+            69
+        ],
+        "result": 12
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            45,
+            47
+        ],
+        "result": 92
+    },
+    {
+        "operation": "division",
+        "operands": [
+            59,
+            77
+        ],
+        "result": 0.7662337662337663
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            38,
+            23
+        ],
+        "result": 874
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            60,
+            39
+        ],
+        "result": 2340
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            59,
+            70
+        ],
+        "result": 129
+    },
+    {
+        "operation": "division",
+        "operands": [
+            7,
+            10
+        ],
+        "result": 0.7
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            7,
+            55
+        ],
+        "result": -48
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            80,
+            28
+        ],
+        "result": 2240
+    },
+    {
+        "operation": "division",
+        "operands": [
+            61,
+            50
+        ],
+        "result": 1.22
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            46,
+            6
+        ],
+        "result": 40
+    },
+    {
+        "operation": "division",
+        "operands": [
+            34,
+            25
+        ],
+        "result": 1.36
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            28,
+            48
+        ],
+        "result": -20
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            97,
+            100
+        ],
+        "result": 9700
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            81,
+            19
+        ],
+        "result": 100
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            68,
+            14
+        ],
+        "result": 952
+    },
+    {
+        "operation": "division",
+        "operands": [
+            72,
+            93
+        ],
+        "result": 0.7741935483870968
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            93,
+            31
+        ],
+        "result": 62
+    },
+    {
+        "operation": "division",
+        "operands": [
+            100,
+            13
+        ],
+        "result": 7.6923076923076925
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            50,
+            99
+        ],
+        "result": 149
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            89,
+            35
+        ],
+        "result": 124
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            61,
+            39
+        ],
+        "result": 2379
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            5,
+            9
+        ],
+        "result": 14
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            77,
+            69
+        ],
+        "result": 146
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            13,
+            18
+        ],
+        "result": 234
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            1,
+            95
+        ],
+        "result": 95
+    },
+    {
+        "operation": "division",
+        "operands": [
+            26,
+            26
+        ],
+        "result": 1.0
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            75,
+            73
+        ],
+        "result": 2
+    },
+    {
+        "operation": "division",
+        "operands": [
+            34,
+            37
+        ],
+        "result": 0.918918918918919
+    },
+    {
+        "operation": "division",
+        "operands": [
+            60,
+            4
+        ],
+        "result": 15.0
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            26,
+            49
+        ],
+        "result": 1274
+    },
+    {
+        "operation": "division",
+        "operands": [
+            86,
+            53
+        ],
+        "result": 1.6226415094339623
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            98,
+            47
+        ],
+        "result": 145
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            13,
+            20
+        ],
+        "result": 33
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            1,
+            71
+        ],
+        "result": -70
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            20,
+            17
+        ],
+        "result": 37
+    },
+    {
+        "operation": "division",
+        "operands": [
+            69,
+            74
+        ],
+        "result": 0.9324324324324325
+    },
+    {
+        "operation": "division",
+        "operands": [
+            9,
+            81
+        ],
+        "result": 0.1111111111111111
+    },
+    {
+        "operation": "division",
+        "operands": [
+            70,
+            59
+        ],
+        "result": 1.1864406779661016
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            74,
+            89
+        ],
+        "result": -15
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            74,
+            24
+        ],
+        "result": 1776
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            89,
+            30
+        ],
+        "result": 2670
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            83,
+            90
+        ],
+        "result": 173
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            6,
+            22
+        ],
+        "result": -16
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            62,
+            97
+        ],
+        "result": 159
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            84,
+            97
+        ],
+        "result": 8148
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            13,
+            82
+        ],
+        "result": 95
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            6,
+            50
+        ],
+        "result": 300
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            19,
+            4
+        ],
+        "result": 15
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            75,
+            56
+        ],
+        "result": 19
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            71,
+            9
+        ],
+        "result": 62
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            10,
+            53
+        ],
+        "result": 63
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            78,
+            46
+        ],
+        "result": 32
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            13,
+            98
+        ],
+        "result": -85
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            36,
+            1
+        ],
+        "result": 35
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            84,
+            90
+        ],
+        "result": -6
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            46,
+            67
+        ],
+        "result": -21
+    },
+    {
+        "operation": "division",
+        "operands": [
+            79,
+            42
+        ],
+        "result": 1.880952380952381
+    },
+    {
+        "operation": "division",
+        "operands": [
+            3,
+            99
+        ],
+        "result": 0.030303030303030304
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            70,
+            68
+        ],
+        "result": 4760
+    },
+    {
+        "operation": "division",
+        "operands": [
+            37,
+            52
+        ],
+        "result": 0.7115384615384616
+    },
+    {
+        "operation": "division",
+        "operands": [
+            8,
+            76
+        ],
+        "result": 0.10526315789473684
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            10,
+            29
+        ],
+        "result": 39
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            4,
+            19
+        ],
+        "result": -15
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            90,
+            22
+        ],
+        "result": 112
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            38,
+            23
+        ],
+        "result": 15
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            53,
+            85
+        ],
+        "result": 4505
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            3,
+            71
+        ],
+        "result": -68
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            12,
+            42
+        ],
+        "result": -30
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            83,
+            63
+        ],
+        "result": 20
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            6,
+            47
+        ],
+        "result": 53
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            52,
+            10
+        ],
+        "result": 520
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            20,
+            64
+        ],
+        "result": -44
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            31,
+            8
+        ],
+        "result": 39
+    },
+    {
+        "operation": "division",
+        "operands": [
+            91,
+            35
+        ],
+        "result": 2.6
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            77,
+            82
+        ],
+        "result": -5
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            99,
+            84
+        ],
+        "result": 8316
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            55,
+            2
+        ],
+        "result": 110
+    },
+    {
+        "operation": "subtraction",
+        "operands": [
+            30,
+            4
+        ],
+        "result": 26
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            49,
+            76
+        ],
+        "result": 3724
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            33,
+            19
+        ],
+        "result": 627
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            29,
+            10
+        ],
+        "result": 290
+    },
+    {
+        "operation": "addition",
+        "operands": [
+            32,
+            1
+        ],
+        "result": 33
+    },
+    {
+        "operation": "multiplication",
+        "operands": [
+            17,
+            60
+        ],
+        "result": 1020
+    }
+]

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3e14383-939c-4a6b-90a9-5428eeff99f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/deemoun/math_operations.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/deemoun/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/deemoun/GoogleSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.GoogleSearchTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/deemoun" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MathOperationsTest">
     <configuration name="GoogleSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenideProject" />
       <extension name="coverage">
@@ -49,6 +55,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.deemoun" />
       <option name="MAIN_CLASS_NAME" value="org.deemoun.GoogleSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SelenideProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deemoun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.deemoun" />
+      <option name="MAIN_CLASS_NAME" value="org.deemoun.MathOperationsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MathOperationsTest" />
         <item itemvalue="JUnit.GoogleSearchTest" />
         <item itemvalue="JUnit.SelenideTests.testGoogleSearch" />
         <item itemvalue="JUnit.SelenideTests.testSearch" />
