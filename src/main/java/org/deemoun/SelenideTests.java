@@ -10,17 +10,7 @@ import org.deemoun.ProductsPage;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class SelenideTests {
-
-    @BeforeAll
-    static void setup() {
-     Utils.configureSelenide();
-    }
-
-    @AfterEach
-    void tearDown() {
-        closeWebDriver();
-    }
+class SelenideTests extends Utils{
 
     @Test
     void addSauceLabsOnesieToCartTest() {
