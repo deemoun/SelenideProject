@@ -10,18 +10,13 @@ public class Utils {
 
     @BeforeAll
     static void setup() {
-        Utils.configureSelenide();
+        Configuration.baseUrl = "https://www.saucedemo.com";
+        Configuration.startMaximized = true;
+        Configuration.browser = "firefox";
     }
 
     @AfterEach
     void tearDown() {
         closeWebDriver();
-    }
-
-    public static void configureSelenide() {
-        Configuration.baseUrl = "https://www.saucedemo.com";
-        Configuration.startMaximized = true;
-        Configuration.browser = "firefox";
-        // Add any other global configurations you need
     }
 }
